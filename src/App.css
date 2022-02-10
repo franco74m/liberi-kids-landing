@@ -14,13 +14,13 @@
 }
 
 .brand-description-title {
-  color:  #5a74b6;
-  background-color: rgb(255, 255, 255, 0.25);
+  color:  #465f9e;
+  background-color: rgb(255, 255, 255, 0.6);
 }
 .brand-description {
-  color: #64AA6D;
+  color: #3d8f48;
   font-size: 1.25rem;
-  background-color: rgba(17, 2, 2, 0.5);
+  background-color: rgb(255, 255, 255, 0.6);
 }
 
 .App {
