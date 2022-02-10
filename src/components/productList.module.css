@@ -1,0 +1,20 @@
+.card {
+  width: 25rem;
+  height: 35rem;
+  margin: 15px;
+  padding: 1rem;
+}
+.cajita {
+  border: 3px solid rgb(70, 14, 14);
+  background-color: rgb(47, 102, 102);
+  width: 300px;
+  height: auto;
+}
+.cardimage {
+  text-align: center;
+}
+.img {
+  width: auto;
+  height: 25rem;
+  object-fit: cover;
+}
