@@ -1,28 +1,26 @@
 .header {
   background: no-repeat center/cover
-    url("https://images.unsplash.com/photo-1571210862729-78a52d3779a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
-  height: 100vh;
-}
-.products {
-  background: no-repeat center/cover
     url("https://images.unsplash.com/photo-1604467794349-0b74285de7e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
   height: 100vh;
 }
-
-.subtitle {
-  color: #5a74b6;
-  text-align: center;
+.products {
+  padding: 3rem 0;
+  background-color: antiquewhite;
+  height: 100vh;
 }
+
 .tile.is-ancestor {
   margin-top: 350px;
 }
 
-.brand-description {
-  color: black;
+.brand-description-title {
+  color:  #5a74b6;
   background-color: rgb(255, 255, 255, 0.25);
 }
-
-.products {
+.brand-description {
+  color: #64AA6D;
+  font-size: 1.25rem;
+  background-color: rgba(17, 2, 2, 0.5);
 }
 
 .App {
