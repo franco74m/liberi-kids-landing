@@ -1,7 +1,7 @@
 import "bulma/css/bulma.min.css";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import ProducList from "./components/productsList";
+import ProductsList from "./components/ProductsList";
 
 function App() {
   return (
@@ -34,7 +34,7 @@ function App() {
         ;
       </section>
       <section className="products">
-        <ProducList/>
+        <ProductsList/>
       </section>
     </div>
   );
