@@ -19,7 +19,7 @@ function Navbar() {
         <div className="navbar-brand">
           <a href="./home">
             <div className={styles.anchorlogo}>
-              <img src={logo} alt="COMO VERGA PONGO UN LOGO"></img>
+              <img src={logo} alt="COMO PONGO UN LOGO"></img>
             </div>
           </a>
 
