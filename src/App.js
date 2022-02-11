@@ -2,12 +2,14 @@ import "bulma/css/bulma.min.css";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import ProductsList from "./components/ProductsList";
+import Footer from "./components/Footer";
+import logo from './components/logo.png'
 
 function App() {
   return (
     <div>
       <section className="header">
-      <Navbar className='navbar' />
+        <Navbar className="navbar" />
         <div class="tile is-ancestor">
           <div class="tile is-3 "></div>
 
@@ -34,8 +36,9 @@ function App() {
         ;
       </section>
       <section className="products">
-        <ProductsList/>
+        <ProductsList />
       </section>
+      <Footer />
     </div>
   );
 }

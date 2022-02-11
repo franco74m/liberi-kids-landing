@@ -18,7 +18,7 @@ function Product(props) {
             <div className="media-content">
               <p className="title is-4">{props.name}</p>
               <p className="subtitle is-6">{props.description}</p>
-              <p className="subtitle is-6">{props.price}</p>
+              <p className="subtitle is-6">${props.price}ARS</p>
             </div>
           </div>
         </div>

@@ -6,21 +6,21 @@
 .products {
   padding: 3rem 0;
   background-color: antiquewhite;
-  height: 2000px;
+  height: auto;
 }
 
 .tile.is-ancestor {
-  margin-top: 350px;
+  margin-top: 25%;
 }
 
 .brand-description-title {
   color:  #465f9e;
-  background-color: rgb(255, 255, 255, 0.6);
+  background-color: rgb(255, 255, 255, 0.8);
 }
 .brand-description {
   color: #3d8f48;
   font-size: 1.25rem;
-  background-color: rgb(255, 255, 255, 0.6);
+  background-color: rgb(255, 255, 255, 0.8);
 }
 
 .App {

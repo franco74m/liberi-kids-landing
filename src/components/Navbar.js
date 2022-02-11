@@ -1,5 +1,8 @@
+import styles from "./Navbar.module.css";
 import "bulma/css/bulma.min.css";
 import { useState } from "react";
+import logo from "./logo.png";
+import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 
 function Navbar() {
   const [isBurguerActive, setIsBurguerActive] = useState(false);
@@ -8,10 +11,16 @@ function Navbar() {
   };
   return (
     <div>
-      <nav className="navbar" role="navigation" aria-label="main navigation">
+      <nav
+        className={`${styles.navbar} navbar is-dark`}
+        role="navigation"
+        aria-label="main navigation"
+      >
         <div className="navbar-brand">
-          <a className="navbar-item" href="https://bulma.io">
-            <img src="" width="112" height="28"></img>
+          <a href="./home">
+            <div className={styles.anchorlogo}>
+              <img src={logo} alt="COMO VERGA PONGO UN LOGO"></img>
+            </div>
           </a>
 
           <a
@@ -41,10 +50,20 @@ function Navbar() {
           <div className="navbar-end">
             <div className="navbar-item">
               <div className="buttons">
-                <a className="button is-primary">
-                  <strong>Sign up</strong>
-                </a>
-                <a className="button is-light">Log in</a>
+              <a
+              className="button is-link is-rounded is-medium"
+              target="_blank"
+              href="https://www.instagram.com/liberikids_/"
+            >
+              <FaInstagram />
+            </a>
+            <a
+              className="button is-primary is-rounded is-medium"
+              target="_blank"
+              href="https://web.whatsapp.com/send?phone=+543426156014"
+            >
+              <FaWhatsapp />
+            </a>
               </div>
             </div>
           </div>
