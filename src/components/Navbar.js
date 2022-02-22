@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <div>
       <nav
-        className={`${styles.navbar} navbar is-dark`}
+        className={`${styles.navbar} navbar`}
         role="navigation"
         aria-label="main navigation"
       >
@@ -42,9 +42,9 @@ function Navbar() {
           className={`navbar-menu ${isBurguerActive && "is-active"}`}
         >
           <div className="navbar-start">
-            <a className="navbar-item">INICIO</a>
-            <a className="navbar-item">PRODUCTOS</a>
-            <a className="navbar-item">CONTACTO</a>
+            <a className="navbar-item">Inicio</a>
+            <a className="navbar-item">Produtos</a>
+            <a className="navbar-item">Contacto</a>
           </div>
 
           <div className="navbar-end">
@@ -53,14 +53,14 @@ function Navbar() {
               <a
               className="button is-link is-rounded is-medium"
               target="_blank"
-              href="https://www.instagram.com/liberikids_/"
+              href="https://www.instagram.com/liberikids_/" rel="noreferrer"
             >
               <FaInstagram />
             </a>
             <a
               className="button is-primary is-rounded is-medium"
               target="_blank"
-              href="https://web.whatsapp.com/send?phone=+543426156014"
+              href="https://web.whatsapp.com/send?phone=+543426156014" rel="noreferrer"
             >
               <FaWhatsapp />
             </a>
