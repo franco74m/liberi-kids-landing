@@ -1,5 +1,9 @@
 .navbar {
-  height: 6rem;
+  height: 8rem;
+  background-color: #a4a4cb;
+  font-family: nunito, sans-serif;
+  font-size: 14px;
+  color: #f2eae6;
 }
 
 .anchorlogo {
