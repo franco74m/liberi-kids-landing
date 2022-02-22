@@ -5,33 +5,46 @@ import { FaWhatsapp,FaInstagram } from 'react-icons/fa';
 
 function Footer(props) {
   return (
-    <footer class="footer is-dark">
-      <div className="columns">
+    <footer className={styles.footer}>
+      <div className='pupi'>
         <div className="column">
-          <div class="content has-text-LEFT">
-            <p>
+          <div className="content has-text-LEFT">
+          <div className="col">
+            <h4 className={styles.categoria}>Categorías</h4>
+              <ul className={styles.list}>
+                <li className="footer-menu-item">
+                  <a className="footer-menu-link" href="https://liberi.mitiendanube.com" >Inicio</a>
+                </li>
+                <li className="footer-menu-item">
+                  <a className="footer-menu-link" href="https://liberi.mitiendanube.com/productos/" >Productos</a>
+                </li>
+                <li className="footer-menu-item">
+                  <a className="footer-menu-link" href="https://liberi.mitiendanube.com/contacto/" >Contacto</a>
+                </li>
+              </ul>			
+          </div>
+            <p className={styles.elMaster}>
               <strong>LANDING PAGE</strong> by{" "}
               <a href="https://github.com/GaspiCastello">Gaspar Castello</a>.
             </p>
           </div>
-        </div>
-        <div className="column">
+        </div>								
+        <div className={styles.column}>
           <div class="content has-text-right">
             <a
-              className="button is-link is-rounded is-medium"
+              className={`${styles.buttonIg} button is-link is-rounded is-medium`}
               target="_blank"
-              href="https://www.instagram.com/liberikids_/"
+              href="https://www.instagram.com/liberikids_/" rel="noreferrer"
             >
             <FaInstagram />
             </a>
             <a
-              className="button is-primary is-rounded is-medium"
+              className={`${styles.buttonWa} button is-primary is-rounded is-medium`}
               target="_blank"
-              href="https://web.whatsapp.com/send?phone=+543426156014"
+              href="https://web.whatsapp.com/send?phone=+543426156014" rel="noreferrer"
             >
               <FaWhatsapp />
-            </a>
-            .
+            </a>  
           </div>
         </div>
       </div>
