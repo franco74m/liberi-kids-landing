@@ -1,0 +1,37 @@
+.footer {
+    background-color: #f2eae6 ;
+    color: whitesmoke;
+    font-family: nunito, sans-serif;
+    font-size: 14px; 
+}
+
+h4.categoria {
+    color: #a4a4cb;
+    font-family: "Fredoka One", sans-serif;
+    margin-top: 2rem;
+}
+
+strong {
+    color: #a4a4cb;
+    font-size: 900 px;
+}
+
+
+a.buttonIg {
+    margin-right: 0 px;
+   background-color: #485fc7
+   color
+}
+
+a.buttonWa {
+    margin-left: 8px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    background-color: #00d1b2;
+}
+
+.elMaster {
+    color: #a4a4cb;
+    margin-bottom: 0;
+}
+
