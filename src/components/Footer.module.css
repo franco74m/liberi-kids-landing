@@ -3,6 +3,8 @@
     color: whitesmoke;
     font-family: nunito, sans-serif;
     font-size: 14px; 
+    border-top: 2px solid #a4a4cb;
+    box-sizing: border-box;
 }
 
 h4.categoria {
