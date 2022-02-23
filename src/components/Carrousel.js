@@ -8,7 +8,7 @@ return (
 	<div className={styles.carrusel}>
 
 	<Carousel>
-		<Carousel.Item interval={4000}>
+		{/* <Carousel.Item interval={4000}>
 		<img
 			className={styles.pic1}
       src="https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGtpZCUyMGNsb3RoZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
@@ -18,7 +18,7 @@ return (
 			<h3>Chomba roja facherita</h3>
 			<p>$12 ARS</p>
 		</Carousel.Caption>
-		</Carousel.Item>
+		</Carousel.Item> */}
 		<Carousel.Item interval={4000}>
 		<img
 			className={styles.pic2}
