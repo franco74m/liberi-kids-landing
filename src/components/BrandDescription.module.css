@@ -8,8 +8,7 @@
    box-sizing: border-box;
    border-radius: 1rem;
    padding: 12px;
-   position: absolute;
-   top: 50%;
+   position: relative;
    text-align: center;
    border: 3px solid #a4a4cb;
    box-shadow: 0 1.5px 3px 0 black ;
@@ -20,8 +19,7 @@ h1 {
     color: #a4a4cb;
     width: 50%;
     text-align: center;
-    position: absolute;
-    top: 35%;
+    position: relative;
     border: 4px solid #a4a4cb;
     box-shadow: 0 1.5px 3px 0 black ;
 }
@@ -31,4 +29,11 @@ h1 {
     justify-content: center;
     border-radius: 30%;
     box-shadow: 0 1.5px 3px 0 black, 16% ;
+    align-content: center;
+}
+
+.bloque {
+    display: inline-block;
+    justify-content: center;
+    margin-top: 8em;
 }
