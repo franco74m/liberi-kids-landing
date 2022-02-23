@@ -4,6 +4,8 @@
   font-family: nunito, sans-serif;
   font-size: 14px;
   color: #f2eae6;
+  border: 2px solid #F2EAE6;
+  box-sizing: border-box;
 }
 
 .anchorlogo {
