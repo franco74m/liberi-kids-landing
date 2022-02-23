@@ -1,6 +1,6 @@
 .carrusel {
     display: 'block';
-    height: 50%;
+    height: 20%;
     padding: 30;
     align-items: center;
     /* align-content: center; */
@@ -9,10 +9,13 @@
     font-family: nunito, sans-serif;
     }
 
-    img.pic1 {
-        display: 'block';
-        height: 400 px;
+    .pic2, .pic3, .pic4 {
+        /* display: 'block'; */
+        min-height: auto;
+        width: 25%;
         padding: 30;
         align-items: center;
         align-content: center;
+        border-radius: 3rem;
+        border: 3px solid #a4a4cb;
     }
